@@ -1,10 +1,11 @@
 
 
 
-def sum_to_hundred():
+def sum_to_hundred(start = 1, end = 100) -> int:
     """
     Write a function sum_to_hundred that returns the sum of all the numbers from 1 to 100 without using loops.
     """
+    return ((end - start + 1) / 2) * (start + end)
 
 
 def MostRepeated(str):
